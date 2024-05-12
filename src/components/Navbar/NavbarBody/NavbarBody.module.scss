@@ -29,6 +29,10 @@
   align-items: center;
   display: none;
 
+  > span:nth-child(1) {
+    display: none;
+  }
+
   > button {
     margin-inline-start: var(--spacing-micro);
   }
