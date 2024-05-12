@@ -7,6 +7,19 @@ $list-max-width: 80rem;
   padding-block-end: var(--spacing-small);
   padding-inline-start: 0;
   padding-inline-end: 0;
+
+  > div > div:nth-child(1){
+    display: none;
+  }
+  > div > div:nth-child(2){
+    display: none;
+  }
+  > div > div:nth-child(3){
+    display: none;
+  }
+  > div > div:nth-child(4){
+    display: none;
+  }
 }
 
 .loadingContainer {
