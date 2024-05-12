@@ -27,6 +27,7 @@
   display: flex;
   margin-inline-end: var(--spacing-medium);
   align-items: center;
+  display: none;
 
   > button {
     margin-inline-start: var(--spacing-micro);
